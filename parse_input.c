@@ -23,7 +23,7 @@ i = 0;
 while (token != NULL)
 {
 cmd[i] = token;
-token = strtok(NULL, delimeter)
+token = strtok(NULL, delimeter);
 i++;
 }
 cmd[i] = NULL;
